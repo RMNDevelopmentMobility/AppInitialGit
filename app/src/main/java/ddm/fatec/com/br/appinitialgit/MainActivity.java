@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         botaoGui = (Button) findViewById(R.id.btnGui);
         botaoJulio = (Button) findViewById(R.id.btnJulio);
         botaoDalfito = (Button) findViewById(R.id.btnDalfito);
-        botaoDalfito = (Button) findViewById(R.id.btnToniolli);
-        botaoDalfito = (Button) findViewById(R.id.btnMayara);
+        botaoToniolli = (Button) findViewById(R.id.btnToniolli);
+        botaoMayara = (Button) findViewById(R.id.btnMayara);
         botaoSamuel = (Button) findViewById(R.id.btnSamuel);
 
         botaoProf.setOnClickListener(new View.OnClickListener() {

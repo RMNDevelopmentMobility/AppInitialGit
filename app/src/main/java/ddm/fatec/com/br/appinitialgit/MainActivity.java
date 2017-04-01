@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import static android.R.attr.label;
+
 public class MainActivity extends AppCompatActivity {
 
     private Context context;
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         context = this;
 
         botaoProf = (Button) findViewById(R.id.btnProf);
+        botaoToniolli = (Button) findViewById(R.id.btnToniolli);
 
         botaoTuri = (Button) findViewById(R.id.btnTuri);
         botaoGabi = (Button) findViewById(R.id.btnGabi);
@@ -52,6 +55,32 @@ public class MainActivity extends AppCompatActivity {
               startActivity(it);
           }
       });
+
+        botaoMayara.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent novaTela = new Intent(context, mayaracarol.class);
+                startActivity(novaTela);
+            }
+        });
+
+        botaoGabi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent novaTela = new Intent(context, gabiActivity.class);
+                startActivity(novaTela);
+            }
+        });
+
+        botaoToniolli.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(MainActivity.this, toniolli.class);
+                startActivity(it);
+
+
+            }
+        });
 
     }
 }

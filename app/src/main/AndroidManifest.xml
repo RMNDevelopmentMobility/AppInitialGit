@@ -15,7 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".julio"></activity>
+
+        <activity android:name=".mayaracarol"></activity>
+
+        <activity android:name=".gabiActivity"></activity>
+
+        <activity android:name=".toniolli"></activity>
+
     </application>
 
 </manifest>

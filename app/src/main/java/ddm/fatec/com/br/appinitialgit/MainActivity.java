@@ -1,6 +1,7 @@
 package ddm.fatec.com.br.appinitialgit;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         context = this;
 
         botaoProf = (Button) findViewById(R.id.btnProf);
+        botaoToniolli = (Button) findViewById(R.id.btnToniolli);
 
         botaoTuri = (Button) findViewById(R.id.btnTuri);
         botaoGabi = (Button) findViewById(R.id.btnGabi);
@@ -41,6 +43,16 @@ public class MainActivity extends AppCompatActivity {
         botaoProf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+            }
+        });
+
+        botaoToniolli.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(MainActivity.this, toniolli.class);
+                startActivity(it);
+
 
             }
         });

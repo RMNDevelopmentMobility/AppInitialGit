@@ -16,6 +16,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".julio"></activity>
+
         <activity android:name=".mayaracarol"></activity>
 
         <activity android:name=".gabiActivity"></activity>

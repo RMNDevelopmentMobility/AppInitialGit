@@ -48,7 +48,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
+      botaoJulio.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+              Intent it = new Intent(MainActivity.this,julio.class);
+              startActivity(it);
+          }
+      });
 
         botaoMayara.setOnClickListener(new View.OnClickListener() {
             @Override

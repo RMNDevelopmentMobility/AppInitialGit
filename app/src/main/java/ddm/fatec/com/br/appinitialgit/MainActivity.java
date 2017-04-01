@@ -1,6 +1,7 @@
 package ddm.fatec.com.br.appinitialgit;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -44,7 +45,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
+      botaoJulio.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+              Intent it = new Intent(MainActivity.this,julio.class);
+              startActivity(it);
+          }
+      });
 
     }
 }

@@ -49,6 +49,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        botaoMayara.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent novaTela = new Intent(context, mayaracarol.class);
+                startActivity(novaTela);
+            }
+        });
+
         botaoGabi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

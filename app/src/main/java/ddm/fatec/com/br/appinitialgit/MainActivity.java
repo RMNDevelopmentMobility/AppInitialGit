@@ -27,12 +27,12 @@ public class MainActivity extends AppCompatActivity {
 
         botaoProf = (Button) findViewById(R.id.btnProf);
 
-        botao1 = (Button) findViewById(R.id.btn1);
-        botao2 = (Button) findViewById(R.id.btn2);
-        botao3 = (Button) findViewById(R.id.btn3);
-        botao4 = (Button) findViewById(R.id.btn4);
-        botao5 = (Button) findViewById(R.id.btn5);
-        botao6 = (Button) findViewById(R.id.btn6);
+        botao1 = (Button) findViewById(R.id.btnTuri);
+        botao2 = (Button) findViewById(R.id.btnGabi);
+        botao3 = (Button) findViewById(R.id.btnGui);
+        botao4 = (Button) findViewById(R.id.btnJulio);
+        botao5 = (Button) findViewById(R.id.btnDalfito);
+        botao6 = (Button) findViewById(R.id.btnSamuel);
 
         botaoProf.setOnClickListener(new View.OnClickListener() {
             @Override

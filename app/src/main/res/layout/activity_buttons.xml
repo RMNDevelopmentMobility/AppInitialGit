@@ -3,60 +3,78 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btn2"
+        android:id="@+id/btnGabi"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Aluno2"
-        android:layout_marginTop="36dp"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="46dp" />
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginTop="36dp"
+        android:text="Gabi" />
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btnTuri"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Aluno1"
+        android:layout_alignBaseline="@+id/btnGabi"
+        android:layout_alignBottom="@+id/btnGabi"
+        android:layout_alignParentStart="true"
         android:layout_marginRight="101dp"
         android:layout_marginStart="22dp"
-        android:layout_alignBaseline="@+id/btn2"
-        android:layout_alignBottom="@+id/btn2"
-        android:layout_alignParentStart="true" />
+        android:text="Turi" />
 
     <Button
-        android:id="@+id/btn3"
+        android:id="@+id/btnGui"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/btn1"
-        android:layout_below="@+id/btn1"
+        android:layout_alignStart="@+id/btnTuri"
+        android:layout_below="@+id/btnTuri"
         android:layout_marginTop="31dp"
-        android:text="Aluno3" />
+        android:text="Gui" />
 
     <Button
-        android:id="@+id/btn4"
+        android:id="@+id/btnJulio"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/btn2"
-        android:layout_alignTop="@+id/btn3"
-        android:text="Aluno4" />
+        android:layout_alignStart="@+id/btnGabi"
+        android:layout_alignTop="@+id/btnGui"
+        android:text="Julio" />
 
     <Button
-        android:id="@+id/btn5"
+        android:id="@+id/btnDalfito"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/btn3"
-        android:layout_below="@+id/btn3"
+        android:layout_alignStart="@+id/btnGui"
+        android:layout_below="@+id/btnGui"
         android:layout_marginTop="28dp"
-        android:text="Aluno5" />
+        android:text="Dalfito" />
 
     <Button
-        android:id="@+id/btn6"
+        android:id="@+id/btnMayara"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btn5"
-        android:layout_alignBottom="@+id/btn5"
-        android:layout_alignStart="@+id/btn4"
-        android:text="Aluno6" />
+        android:layout_alignBaseline="@+id/btnSamuel"
+        android:layout_alignBottom="@+id/btnSamuel"
+        android:layout_alignStart="@+id/btnDalfito"
+        android:text="Mayara" />
+
+    <Button
+        android:id="@+id/btnToniolli"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnDalfito"
+        android:layout_alignBottom="@+id/btnDalfito"
+        android:layout_alignStart="@+id/btnJulio"
+        android:text="Toniolli" />
+
+    <Button
+        android:id="@+id/btnSamuel"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnToniolli"
+        android:layout_below="@+id/btnToniolli"
+        android:layout_marginTop="33dp"
+        android:text="Samuel" />
 
     <Button
         android:id="@+id/btnProf"

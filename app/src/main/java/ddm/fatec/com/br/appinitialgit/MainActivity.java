@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import static android.R.attr.label;
+
 public class MainActivity extends AppCompatActivity {
 
     private Context context;
@@ -47,6 +49,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        botaoGabi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent novaTela = new Intent(context, gabiActivity.class);
+                startActivity(novaTela);
+            }
+        });
+
         botaoToniolli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
 
     }
 }

@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         context = this;
 
         botaoProf = (Button) findViewById(R.id.btnProf);
+        botaoToniolli = (Button) findViewById(R.id.btnToniolli);
 
         botaoTuri = (Button) findViewById(R.id.btnTuri);
         botaoGabi = (Button) findViewById(R.id.btnGabi);
@@ -55,5 +56,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(novaTela);
             }
         });
+
+        botaoToniolli.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(MainActivity.this, toniolli.class);
+                startActivity(it);
+
+
+            }
+        });
+
     }
 }

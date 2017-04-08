@@ -81,11 +81,20 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
         botaoTuri.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent novatela = new Intent(context, Turi.class);
                 startActivity(novatela);
+            }
+        });
+
+        botaoDalfito.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent novaTela = new Intent(context, dalfitoActivity.class);
+                startActivity(novaTela);
             }
         });
     }

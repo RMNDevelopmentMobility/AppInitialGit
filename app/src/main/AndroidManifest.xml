@@ -19,6 +19,7 @@
         <activity android:name=".mayaracarol" />
         <activity android:name=".gabiActivity" />
         <activity android:name=".toniolli" />
+        <activity android:name=".Turi"></activity>
         <activity android:name=".dalfitoActivity"></activity>
     </application>
 

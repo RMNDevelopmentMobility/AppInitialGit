@@ -82,5 +82,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        botaoDalfito.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent novaTela = new Intent(context, dalfitoActivity.class);
+                startActivity(novaTela);
+            }
+        });
+
+
     }
 }
